@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mrciobotelho.bancodados.TelaLogin">
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/senha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logar"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cadastrese"
+        android:text="Cadastre-se" />
+
+    <Button
+        android:id="@+id/btn_not"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="notify"
+        android:text="Notificação" />
+
+    <Button
+        android:id="@+id/Contatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="contatos"
+        android:text="Contatos" />
+
+    <Button
+        android:id="@+id/Compartilhar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="compartilhar"
+        android:text="Compartilhar" />
+</LinearLayout>
